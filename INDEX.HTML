@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="css/main.css" />
     <title>Document</title>
 </head>
+
 <body>
     /*hello my first project*/
     <div class="cruds">
@@ -14,7 +16,7 @@
         <div class="header">
             <h>CRUDS</h>
             <P>PRODUCT MANAGEMENT SYSTEM</P>
-        </div> 
+        </div>
         <input type="text" id="title" placeholder="title">
         <div class="input">
             <input onkeyup="gettotal()" type="number" id="price" placeholder="price">
@@ -30,7 +32,7 @@
         <div class="twosearch">
             <button onclick="searchmoding(this.id)" id="searchtitle">search by title</button>
             <button onclick="searchmoding(this.id)" id="searchcat">search by catagory</button>
-            
+
         </div>
         <div id="deleteall"></div>
         <div class="table">
@@ -46,20 +48,21 @@
                     <th>CATEGORY</th>
                     <th>DELETE</th>
                     <th>UPDATE</th>
-            
-            
+
+
                 </tr>
                 <tbody id="tbody">
-                    
+
                 </tbody>
-            
-            
+
+
             </table>
         </div>
-        
-        
+
+
         <button onclick="goToTop()" id="myBtn" title="Go to top">Top</button>
     </div>
     <script src="main.js"></script>
 </body>
+
 </html>
